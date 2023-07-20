@@ -42,7 +42,7 @@ instalação usando o comando npx create-react-app (nome do projeto)
 
 
 
-            #Props
+            #Aula 05 Props
 
 ° As *props* são valores para componentes;
 
@@ -55,3 +55,16 @@ instalação usando o comando npx create-react-app (nome do projeto)
 ° E precisa ser *resgatado dentro de uma propriedade/argumento* chamada props na função de definição do component;
 
 ° As props são somente de leitura!
+
+
+            #Aula 06 Adcionando CSS
+
+° O *CSS* pode ser *adcionado de forma global* na aplicação, por meio do arquivo index.css por exemplo;
+
+° Porém é possível *estilizar a nível de componentes*;
+
+° Utilizando o *CSS modules* para isso;
+
+° Basta criar um arquivo como: *Componente.module.css*;
+
+° E chamar este CSS no componente;
