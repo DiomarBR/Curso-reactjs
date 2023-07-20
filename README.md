@@ -39,3 +39,19 @@ instalação usando o comando npx create-react-app (nome do projeto)
 ° E *importá-lo* onde precisar utilizar;
 
 ° Normalmente ficam em uma pasta chamada *components*;
+
+
+
+            #Props
+
+° As *props* são valores para componentes;
+
+° Podendo deixá-los *dinâmicos*;
+
+° Ou seja *mudando a execução* por causa do valor da prop;
+
+° O valor é *passado como um atributo* na chamada do component;
+
+° E precisa ser *resgatado dentro de uma propriedade/argumento* chamada props na função de definição do component;
+
+° As props são somente de leitura!

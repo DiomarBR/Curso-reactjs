@@ -14,10 +14,6 @@ function App() {
 
   return (
     <div className="App">
-      <h2>Alterando o JSX</h2>
-      <p>ola , {neWname}</p>
-      <p>soma: {sum(1,2)}</p>
-      <img src={url} alt="minha imagem"/>
       <HelloWorld/>
     </div>
   );
