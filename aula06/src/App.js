@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import SayMyName from './Components/SayMyName';
+import Pessoa from './Components/Pessosa';
+import Frase from './Components/Frase'
 
 function App() {
+  const name = 'Pedro';
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Frase/>
+      <Frase/>
+
+      <SayMyName nome="Diomar"/>
+      <SayMyName nome="João"/>
+      <SayMyName nome="Maria"/>
+      <SayMyName nome={name}/>
+      <Pessoa 
+      nome="Diomar" 
+      idade="18" 
+      profissao="Devs Web" 
+      foto="https://via.placeholder.com/150"/>
     </div>
   );
 }
